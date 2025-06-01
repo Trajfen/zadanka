@@ -2,16 +2,17 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
-<title>Tabela Alfabetu</title>
+<title>Tabele </title>
 <style>
   table {
     border-collapse: collapse;
-    margin-bottom: 30px;
+    margin: 20px 0;
   }
-  td, th {
+  th, td {
     border: 1px solid #999;
     padding: 8px;
     text-align: center;
+    min-width: 20px;
   }
   th {
     background-color: #a3d8f4;
@@ -37,10 +38,11 @@
     <th>4</th><td>k</td><td>l</td><td>m</td><td>n</td><td>o</td>
   </tr>
   <tr>
-    <th>5</th><td class="green" colspan="2" rowspan="2">p, q, r, u, v, w</td><td>s</td><td>t</td><td></td>
+    <th>5</th>
+    <td class="green" rowspan="2" colspan="6">p, q, r, u, v, w</td>
   </tr>
   <tr>
-    <th>6</th><td>y</td><td>z</td><td></td>
+    <th>6</th>
   </tr>
 </table>
 
@@ -58,10 +60,13 @@
     <th>4</th><td>k</td><td>l</td><td>m</td><td>n</td><td></td>
   </tr>
   <tr>
-    <th>5</th><td class="green" colspan="3" rowspan="2">p, q, r, u, v, w</td><td>s</td><td>t</td>
+    <th>5</th>
+    <td class="green" rowspan="2" colspan="4">p, q, r, u, v, w</td>
+    <td>s</td>
   </tr>
   <tr>
-    <th>6</th><td>y</td><td>z</td>
+    <th>6</th>
+    <td>t</td>
   </tr>
 </table>
 
@@ -76,13 +81,16 @@
     <th>3</th><td>f</td><td>g</td><td>h</td><td>i</td><td>j</td>
   </tr>
   <tr>
-    <th>4</th><td class="green" colspan="4" rowspan="2">k, l, m, p, q, r</td><td>o</td>
+    <th>4</th><td>k</td><td>l</td><td>m</td><td>n</td><td>o</td>
   </tr>
   <tr>
-    <th>5</th><td>s</td><td>t</td>
+    <th>5</th>
+    <td class="green" colspan="2" rowspan="2">w, x, y, z, p, q, r</td>
+    <td>s</td><td>t</td><td></td>
   </tr>
   <tr>
-    <th>6</th><td>u</td><td>v</td><td>w</td><td>y</td><td>z</td>
+    <th>6</th>
+    <td></td><td></td><td></td>
   </tr>
 </table>
 
