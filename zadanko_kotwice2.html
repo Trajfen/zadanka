@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mazda</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      background: #fafafa;
+      color: #222;
+    }
+
+    nav {
+      background: #333;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0 1rem;
+    }
+    nav a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.75rem 1rem;
+    }
+    nav a:hover {
+      background: #444;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 5rem; /* DUŻY odstęp między sekcjami */
+    }
+
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    figure img {
+      width: 100%;
+      max-width: 600px; /* Oba zdjęcia będą tej samej szerokości */
+      height: 400px;    /* Stała wysokość dla wyrównania */
+      object-fit: cover; /* Dopasowuje proporcje bez rozciągania */
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    figcaption {
+      font-style: italic;
+      color: #555;
+      margin-top: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 0;
+      text-align: center;
+      color: #b30000;
+    }
+
+    p {
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    p a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #b30000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    p a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #f4f4f4;
+    }
+    footer a {
+      color: #333;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#auto1">MX-5 NB ’98</a></li>
+      <li><a href="#auto2">RX-7 FD ’98</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="auto1">
+      <h2>Mazda MX-5 NB (1998)</h2>
+      <figure>
+        <img src="mx5.jpg" alt="Mazda MX-5 NB z 1998">
+        <figcaption>Mazda MX-5 NB — klasyczny roadster z końca lat 90.</figcaption>
+      </figure>
+      <p>
+        Mazda MX-5 NB, znana również jako Miata, to druga generacja kultowego roadstera. 
+        Auto wyposażone jest w wolnossący silnik 1.8 l o mocy 131 KM, współpracujący z manualną skrzynią biegów. 
+        Dzięki niskiej masie własnej, idealnemu rozkładowi masy 50:50 oraz napędowi na tylne koła, 
+        MX-5 oferuje niezwykle precyzyjne prowadzenie i czystą radość z jazdy — dokładnie taką, jaką cenią entuzjaści motoryzacji.
+      </p>
+      <p>
+        Wnętrze samochodu jest proste, ale ergonomiczne, a brak zbędnych systemów wspomagania potęguje kontakt kierowcy z drogą.
+      </p>
+      <p><a href="#auto2">Zobacz RX-7 FD ’98 ↓</a></p>
+    </section>
+
+    <section id="auto2">
+      <h2>Mazda RX-7 FD (1998)</h2>
+      <figure>
+        <img src="rx7.png" alt="Mazda RX-7 FD z 1998">
+        <figcaption>Mazda RX-7 FD — ikona sportowych coupé z Japonii</figcaption>
+      </figure>
+      <p>
+        RX-7 FD to prawdziwa legenda lat 90. — sportowe coupé napędzane unikalnym silnikiem Wankla 1.3 l z podwójnym turbodoładowaniem, 
+        generującym około 255 KM. Samochód waży nieco ponad 1250 kg, a napęd na tylną oś i zaawansowane zawieszenie sprawiają, 
+        że RX-7 prowadzi się niezwykle lekko i precyzyjnie, oferując wrażenia bliskie samochodom wyścigowym.
+      </p>
+      <p>
+        Charakterystyczna, płynna linia nadwozia i pop-up światła sprawiły, że RX-7 stała się ikoną stylu i szybkości. 
+        Do dziś model ten jest pożądany przez kolekcjonerów i fanów tuningowych modyfikacji.
+      </p>
+      <p><a href="#auto1">← Wróć do MX-5 NB ’98</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Strona o kultowych Mazdach | Zdjęcia i opisy do celów edukacyjnych</p>
+  </footer>
+
+</body>
+</html>
