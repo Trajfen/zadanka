@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halloween</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(#0b0b0b, #1b1b1b);
+      color: #ffb55c;
+      font-family: "Trebuchet MS", sans-serif;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px;
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 0 0 20px #ff6a00;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #ffb55c;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-shadow: 0 0 10px #ff6a00;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      border-top: 1px solid #ff6a00;
+    }
+
+    .ghost {
+      width: 150px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🎃 Halloween 🎃</header>
+
+  <nav>
+    <a href="#o-halloween">O Halloween</a>
+    <a href="#tradycje">Tradycje</a>
+    <a href="#cukierki">Cukierki</a>
+  </nav>
+
+  <div class="section" id="o-halloween">
+    <img src="duch.png" class="ghost" alt="Duch" />
+    <h2>O Halloween</h2>
+    <p>Halloween to obchodzone 31 października święto związane z dawnymi tradycjami celtyckimi. Współcześnie stanowi połączenie zabawy, kultury popularnej oraz elementów folkloru.</p>
+  </div>
+
+  <div class="section" id="tradycje">
+    <h2>Tradycje</h2>
+    <p>W trakcie Halloween dekoruje się domy, organizuje tematyczne przyjęcia oraz przebiera w kostiumy przedstawiające postacie nadprzyrodzone, historyczne lub popkulturowe.</p>
+  </div>
+
+  <div class="section" id="cukierki">
+    <h2>Cukierek albo psikus</h2>
+    <p>Dzieci tradycyjnie odwiedzają okoliczne domy, prosząc o słodycze. Zwyczaj ten stanowi element integracyjny, podkreślający atmosferę wspólnej zabawy.</p>
+  </div>
+
+  
+
+</body>
+</html>
